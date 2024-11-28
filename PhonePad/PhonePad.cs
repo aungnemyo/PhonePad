@@ -1,9 +1,10 @@
 ﻿using System.Text;
 
 namespace PhonePad
-{/// <summary>
- /// A utility class that simulates old phone keypad behavior for text input.
- /// </summary>
+{
+    /// <summary>
+    /// A utility class that simulates old phone keypad behavior for text input.
+    /// </summary>
     public static class PhonePad
     {
         /// <summary>
