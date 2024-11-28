@@ -52,3 +52,31 @@ class Program
         Console.WriteLine(result); // Output: HELLO
     }
 }
+```
+
+## Testing
+
+### Running Tests
+
+Run the following command to execute all unit tests:
+
+```bash
+dotnet test
+```
+
+### Sample Test Cases
+
+| Input                | Output  | Explanation                                                  |
+|----------------------|---------|--------------------------------------------------------------|
+| `33#`                | `E`     | `33` produces `E`                                            |
+| `227*#`              | `B`     | `22` produces `B`, '7' produces 'P', backspace removes it    |
+| `4433555 555666#`    | `HELLO` | Complete input decodes to 'HELLO'.                                           |
+| ``                   | (empty) | an empty sequence produces nothing.                          |
+
+## Contributing
+
+Contributions are welcome! Submit a pull request or open an issue for improvements or bug fixes.
+
+## License
+
+This project is licensed under the MIT License.
